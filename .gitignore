@@ -1,0 +1,50 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+crash.*.log
+terraform.rc
+.terraformrc
+
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variables
+.env
+.env.*.local
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled binaries
+dist/
+build/
+
+# Ignore editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore coverage reports
+coverage/
+.nyc_output/
+
+# Ignore miscellaneous
+*.log
